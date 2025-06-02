@@ -1,0 +1,23 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+    ],
+    "id": "did:web:raw.githubusercontent.com:Carmengb10:provider_credentials:main",
+    "verificationMethod": [
+      {
+        "id": "did:web:raw.githubusercontent.com:Carmengb10:provider_credentials:main#key-provider",
+        "type": "JsonWebKey2020",
+        "publicKeyJwk": {
+          "kty": "RSA",
+          "n": "0AE0jaWPzV5JfFXUxm8t4DMs8JpiuGgDf4MMV-PqjcPc6rGLrh4aQRSxbyKiSW6kqCt-QZCa-zWB34LQRNY7GlUpaW_bhoBYKtpieRpyhsh7YV_GR8Ts96bMMn0grjsWHlGoCyXONpTSGmn2k4X2ky2gQaxz5W-3j9TE7iQ6ck7OSg2QRhwKyq4bd7GEt2JvaaK-938PQDBsLQw4OGhOdFwrUkxnEqGpBBuIlVM1Utbtkw-JfVZxggylg2jnOzKomr9U39J5rXZ0hCE_G4JCmw4McaTOhV7wv8nOs47RNmuNqoN2CWIFDJaTqdyt_c-tt3eXZonk2NCMK_7knUBn6w",
+          "e": "AQAB",
+          "alg": "RS256",
+          "x5u": "https://raw.githubusercontent.com/Carmengb10/provider_credentials/main/cert.pem"
+        }
+      }
+    ],
+    "assertionMethod": [
+      "did:web:raw.githubusercontent.com:Carmengb10:provider_credentials:main#key-provider"
+    ]
+  }
